@@ -1,0 +1,10 @@
+{
+  "name": "helloworld",
+  "id": "1152679372956890929",
+  "api": "1.0.0",
+  "main": "code.js",
+  "editorType": [
+    "figma",
+    "figjam"
+  ]
+}
