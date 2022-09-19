@@ -1,0 +1,10 @@
+{
+  "name": "color-swap",
+  "id": "1153744333078415077",
+  "api": "1.0.0",
+  "main": "code.js",
+  "editorType": [
+    "figma",
+    "figjam"
+  ]
+}
