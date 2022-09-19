@@ -4,11 +4,19 @@
 
 // Runs this code if the plugin is run in Figma
 // This plugin creates 5 rectangles on the screen.
+const fs = require("fs")
+const testFolder = './ebt-card-lib'
 const numberOfFrames = 10;
 
+const cardLib = () => {
+  fs.readdirSync(testFolder).forEach((file: any) => {
+    console.log(file)
+  })
+}
 
 const nodes: SceneNode[] = [];
 const generateFrames = () => {
+  cardLib();
   if (nodes.length > 0) {
     console.log(nodes)
     return;
