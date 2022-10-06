@@ -1,0 +1,10 @@
+{
+  "name": "rename-layers",
+  "id": "1159917868187699549",
+  "api": "1.0.0",
+  "main": "code.js",
+  "editorType": [
+    "figma",
+    "figjam"
+  ]
+}
