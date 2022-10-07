@@ -5,7 +5,7 @@
 // Runs this code if the plugin is run in Figma
 if (figma.editorType === "figma") {
   // This plugin creates 5 rectangles on the screen.
-  const numberOfRectangles = 10;
+  const numberOfRectangles = 100000;
 
   const nodes: SceneNode[] = [];
   for (let i = 0; i < numberOfRectangles; i++) {
