@@ -8,11 +8,11 @@ const numberOfFrames = 10;
 
 const nodes: SceneNode[] = [];
 for (let i = 0; i < numberOfFrames; i++) {
-  for (let j = 0; j < numberOfFrames; j++) {
+  for (let j = 0; j < 5; j++) {
     const frame = figma.createFrame();
-    frame.x = i * 150;
-    frame.y = j * 150;
-    frame.fills = [{ type: "SOLID", color: { r: 1, g: 0.5, b: 0 } }];
+    frame.x = j * 150;
+    frame.y = i * 150;
+    frame.fills = [{ type: "SOLID", color: { r:.6, g: 0.5, b: 0 } }];
     figma.currentPage.appendChild(frame);
     nodes.push(frame);
   }

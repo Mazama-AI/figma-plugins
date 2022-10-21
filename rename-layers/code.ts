@@ -60,12 +60,9 @@ const currentPageNodes = currentPage.findChildren(node => node.type === "FRAME")
 //const transformed = currentPageNodes.map(({ id: label, name: abbr }) => ({ label, abbr }));
 //console.log(transformed)
 
-for (let i of states) {
-  for (let j of currentPageNodes) {
-    console.log(j.name, i.abbr)
-    j.name = i.abbr
-  }
-}
+states.forEach((state, i) => {
+  currentPageNodes[i].name += state.abbr
+})
 
 figma.notify(`Renamed slides: ` + currentPageNodes.length);
 

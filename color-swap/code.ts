@@ -29,7 +29,7 @@ const generateFrames = () => {
         const frame = figma.createFrame();
         frame.x = i * 150;
         frame.y = j * 150;
-        frame.fills = [{ type: "SOLID", color: { r: R, g: G, b: B } }];
+        frame.fills = [{ type: "SOLID", color: { r: 10, g: G, b: B } }];
         frame.fills
         figma.currentPage.appendChild(frame);
         nodes.push(frame);

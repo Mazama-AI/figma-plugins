@@ -6,7 +6,7 @@
 if (figma.editorType === "figma") {
   // This plugin creates 5 rectangles on the screen.
   const numberOfRectangles = 10;
-
+  figma.createEffectStyle.
   const nodes: SceneNode[] = [];
   for (let i = 0; i < numberOfRectangles; i++) {
     const rect = figma.createRectangle();
